@@ -7,21 +7,21 @@ class User_input{
         Scanner scanner = new Scanner(System.in);
 
         // Integer input
-        int a = scanner.nextInt();
+        int integerInput = scanner.nextInt();
 
         // Float input
-        float f = scanner.nextFloat();
+        float floatInput = scanner.nextFloat();
 
         // Double input
-        double d = scanner.nextDouble();
+        double doubleInput = scanner.nextDouble();
 
         // String input
-        String str = scanner.nextLine();
+        String stringInput = scanner.nextLine();
 
         
         scanner.close();
 
-        System.out.println("Integer input: " + a + "\n" + "Float input: " + f + "\n" + "Double input: " + d + "\n" + "String input: " + str);
+        System.out.println("Integer input: " + integerInput + "\n" + "Float input: " + floatInput + "\n" + "Double input: " + doubleInput + "\n" + "String input: " + stringInput);
 
     }
 }
