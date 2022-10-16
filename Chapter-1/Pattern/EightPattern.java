@@ -7,7 +7,7 @@ public class EightPattern {
             for (int j = 0; j < 5; j++) {
                 System.out.println(i);
             }
-            for (int k = 0; j < 5; j++) {
+            for (int k = 0; k < 5; k++) {
                 System.out.println(k);
             }
             System.out.println("\n");
