@@ -1,22 +1,20 @@
+import java.util.*;
 public class SeventhPattern {
   public static void main(String args[]){
-    // PATTERN - 1
-
-      /*
-                *
-              * * *
-             * * * * *
-          *  *  *  *  * *
-      */
-
-      for(int i=1;i<5;i++){
-        for (int j=4 ; j <=i ; j++) {
-            System.out.print(" ");
-        }
-        for(int k=1;k<=i;k++){
-            System.out.print("* ");
-        }
-        System.out.println();
-        }
+      Scanner scanner = new Scanner(System.in);
+      int n = scanner.nextInt();
+      pattern_7(n);
       }
-  }
+
+    private static void pattern_7(int n) {
+        for (int row = 0; row < n; row++) {
+            for (int col = n; col >= row; col--) {
+                System.out.print(" ");
+            }
+            for (int col1 = 0; col1 <= row; col1++) {
+                System.out.print("* ");
+            }
+            System.out.println("");
+        }
+    }
+}
