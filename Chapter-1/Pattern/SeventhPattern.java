@@ -1,7 +1,7 @@
 
 import java.util.*;
 public class SeventhPattern {
-  public static void main(String args[]){
+  public static void main(String[] args){
       Scanner scanner = new Scanner(System.in);
       int n = scanner.nextInt();
       pattern_7(n);
