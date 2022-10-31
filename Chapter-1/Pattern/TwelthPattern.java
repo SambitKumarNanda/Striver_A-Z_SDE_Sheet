@@ -8,13 +8,25 @@ public class TwelthPattern {
     }
 
     private static void twelve_pattern(int n) {
-        for (int row = 0; row < n; row++) {
-            for (int gap = 0; gap < row; gap++) {
-                System.out.print("");
+        for (int i=1; i<=n; i++) {
+
+            for (int j=1; j<=n; j++) {
+                if (j<=i){
+                    System.out.print(j + " ");
+                } else {
+                    System.out.print("  ");
+                }
             }
-            for (int col = 0; col < row; col++) {
-                System.out.println(col);
+
+            for (int j=n; j>=1; j--) {
+                if (j<=i) {
+                    System.out.print(j + " ");
+                } else {
+                    System.out.print("  ");
+                }
             }
+
+            System.out.println();
         }
     }
 }
