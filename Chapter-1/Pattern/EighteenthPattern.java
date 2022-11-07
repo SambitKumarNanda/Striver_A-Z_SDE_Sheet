@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+// eIGHTEEN pATTERN
 public class EighteenthPattern {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
