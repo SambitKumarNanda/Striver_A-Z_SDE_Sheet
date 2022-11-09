@@ -8,14 +8,20 @@ public class SeventhPattern {
       }
 
     private static void pattern_7(int n) {
-        for (int row = 0; row < n; row++) {
-            for (int col = n; col >= row; col--) {
+        for (int row = 1; row <= n; row++) {
+            for (int spaces = n; spaces > row; spaces--) {
                 System.out.print(" ");
             }
-            for (int col1 = 0; col1 <= row; col1++) {
-                System.out.print("* ");
+            for (int col = 1; col <= 2*row - 1; col++) {
+                if (col <= row) {
+                    System.out.print((char)('A' + col - 1));
+                }
+                else {
+                    System.out.print((char)('A' + (2*row - col - 1)));
+                }
+
             }
-            System.out.println("");
+            System.out.println();
         }
     }
 }
