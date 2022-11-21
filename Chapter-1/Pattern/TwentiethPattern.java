@@ -12,7 +12,10 @@ public class TwentiethPattern {
             for (int j = 0; j < i; j++) {
                 System.out.print("*");
             }
-            System.out.println();
+            for (int j = 0; j < ; j++) {
+
+            }
         }
+            System.out.println();
     }
 }
