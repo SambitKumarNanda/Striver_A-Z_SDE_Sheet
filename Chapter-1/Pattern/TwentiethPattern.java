@@ -13,7 +13,7 @@ public class TwentiethPattern {
                 System.out.print("*");
             }
             for (int j = 0; j < i; j++) {
-
+                System.out.println("(");
             }
         }
             System.out.println();
