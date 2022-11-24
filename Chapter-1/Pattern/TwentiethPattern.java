@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+// Twentieth Pattern
 public class TwentiethPattern {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
